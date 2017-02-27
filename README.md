@@ -1,1 +1,0 @@
-this is a wordpress panel project
