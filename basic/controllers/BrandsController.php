@@ -8,6 +8,8 @@ use app\models\BrandsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+
 
 /**
  * BrandsController implements the CRUD actions for Brands model.
@@ -20,6 +22,17 @@ class BrandsController extends Controller
     public function behaviors()
     {
         return [
+                      'access' => [
+                'class' => AccessControl::className(),
+                'only' => ['create','update','delete','index','view'],
+                'rules' => [
+                    [
+                        // 'actions' => ['logout'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
