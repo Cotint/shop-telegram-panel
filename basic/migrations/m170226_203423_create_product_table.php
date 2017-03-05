@@ -18,9 +18,9 @@ class m170226_203423_create_product_table extends Migration
         $this->createTable('product', [
             'id' => $this->primaryKey(),
             'pro_ID' => $this->integer(11)->notNull(),
-            'pro_Name' => $this->varchar(50)->notNull;pro_CatID()->integer(11)->notNull(),
+            'pro_Name' => $this->varchar(50)->notNull(),pro_CatID()->integer(11)->notNull(),
             'pro_ImID' => $this->integer(11)->notNull(),
-            'pro_BraID' => $this->integer(11)(11)->notNull(),
+            'pro_BraID' => $this->integer(11)->notNull(),
             'pro_LikeCount' => $this->integer(11)->notNull(),
             'pro_DislikeCount' => $this->integer(11)->notNull(),
             'pro_FirstPrice' => $this->integer(11)->notNull(),

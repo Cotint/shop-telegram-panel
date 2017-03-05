@@ -8,16 +8,16 @@
                 <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>Alexander Pierce</p>
+                <p>مجتبی جعفری</p>
 
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                <a href="#"><i class="fa fa-circle text-success"></i> آنلاین</a>
             </div>
         </div>
 
         <!-- search form -->
         <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search..."/>
+                <input type="text" name="q" class="form-control" placeholder="جستجو..."/>
               <span class="input-group-btn">
                 <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
@@ -30,13 +30,13 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
+                    ['label' => 'پنل شاپکت', 'options' => ['class' => 'header']],
                     // ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
                     // ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
-                    ['label' => 'Product', 'icon' => 'fa fa-shopping-cart', 'url' => ['/product']],
-                    ['label' => 'Brands', 'icon' => 'fa fa-tags', 'url' => ['/brands']],
-                    ['label' => 'Category', 'icon' => 'fa fa-file-text-o', 'url' => ['/category']],
-                    ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
+                    ['label' => 'محصولات', 'icon' => 'fa fa-shopping-cart', 'url' => ['/product']],
+                    ['label' => 'برندها', 'icon' => 'fa fa-tags', 'url' => ['/brands']],
+                    ['label' => 'دسته بندی', 'icon' => 'fa fa-file-text-o', 'url' => ['/category']],
+                    ['label' => 'ورود', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => 'Same tools',
                         'icon' => 'fa fa-share',

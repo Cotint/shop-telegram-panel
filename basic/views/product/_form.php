@@ -2,6 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use app\models\Category;
+use app\models\Brands;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Product */
@@ -16,11 +19,18 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'pro_Name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'pro_CatID')->textInput() ?>
+    <?= $form->field($model, 'pro_CatID')->dropDownList(
+            \yii\helpers\ArrayHelper::map(\app\models\Category::find()->all(),'cat_ID','cat_Name'),
+        ['prompt'=>'دسته مورد نظر را انتخاب کنید']
+    ) ?>
 
     <?= $form->field($model, 'pro_ImID')->textInput() ?>
 
     <?= $form->field($model, 'pro_BraID')->textInput() ?>
+    <?= $form->field($model, 'pro_BraID')->dropDownList(
+        \yii\helpers\ArrayHelper::map(\app\models\Brands::find()->all(),'bra_ID','bra_Name'),
+        ['prompt'=>'برند مورد نظر را انتخاب کنید']
+    ) ?>
 
     <?= $form->field($model, 'pro_LikeCount')->textInput() ?>
 
