@@ -39,8 +39,7 @@ use dmstr\widgets\Alert;
     <div class="pull-right hidden-xs">
         <b>Version</b> 2.0
     </div>
-    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    <strong>&copy; 2014-2015 <a href="http://shopket.ir">شاپکت</a>.</strong> تمامی حقوق محفوظ می باشد.
 </footer>
 
 <!-- Control Sidebar -->
@@ -54,7 +53,7 @@ use dmstr\widgets\Alert;
     <div class="tab-content">
         <!-- Home tab content -->
         <div class="tab-pane" id="control-sidebar-home-tab">
-            <h3 class="control-sidebar-heading">Recent Activity</h3>
+            <h3 class="control-sidebar-heading">فعالیتهای اخیر</h3>
             <ul class='control-sidebar-menu'>
                 <li>
                     <a href='javascript::;'>
@@ -162,7 +161,7 @@ use dmstr\widgets\Alert;
         <!-- Settings tab content -->
         <div class="tab-pane" id="control-sidebar-settings-tab">
             <form method="post">
-                <h3 class="control-sidebar-heading">General Settings</h3>
+                <h3 class="control-sidebar-heading">تنظیمات عمومی</h3>
 
                 <div class="form-group">
                     <label class="control-sidebar-subheading">
@@ -200,11 +199,11 @@ use dmstr\widgets\Alert;
                 </div>
                 <!-- /.form-group -->
 
-                <h3 class="control-sidebar-heading">Chat Settings</h3>
+                <h3 class="control-sidebar-heading">تنظیمات گفتگو</h3>
 
                 <div class="form-group">
                     <label class="control-sidebar-subheading">
-                        Show me as online
+                        مرا آنلاین نمایش بده
                         <input type="checkbox" class="pull-right" checked/>
                     </label>
                 </div>
@@ -212,7 +211,7 @@ use dmstr\widgets\Alert;
 
                 <div class="form-group">
                     <label class="control-sidebar-subheading">
-                        Turn off notifications
+                        غیر فعال کردن اطلاع رسانی
                         <input type="checkbox" class="pull-right"/>
                     </label>
                 </div>

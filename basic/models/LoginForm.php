@@ -48,7 +48,7 @@ class LoginForm extends Model
             $user = $this->getUser();
 
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect username or password.');
+                $this->addError($attribute, 'نام کاربری یا رمز عبور اشتباه می باشد.');
             }
         }
     }
@@ -77,5 +77,14 @@ class LoginForm extends Model
         }
 
         return $this->_user;
+    }
+    public function attributeLabels()
+    {
+        return array(
+            'rememberMe'=>'مرا به خاطر بسپار',
+            'username' => 'نام کاربری',
+            'password'=> 'رمز عبور',
+            'sign out' => 'خروج',
+        );
     }
 }

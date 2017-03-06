@@ -3,14 +3,16 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
+    'language' => 'fa-IR',
     'id' => 'basic',
+    'name' => 'شاپکت',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
         // 'view' => [
         //      'theme' => [
         //          'pathMap' => [
-        //             '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+        //             '@appf/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
         //          ],
         //      ],
         // ],
