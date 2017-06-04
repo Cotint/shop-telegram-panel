@@ -5,6 +5,9 @@ use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
 use app\models\Category;
 use app\models\Brands;
+use app\models\Tag;
+use kartik\select2\Select2;
+
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Product */
@@ -12,45 +15,82 @@ use app\models\Brands;
 ?>
 
 <div class="product-form">
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-    <?php $form = ActiveForm::begin(); ?>
+<div class="row">
+    <div class="col-md-6">
+            <?= $form->field($model, 'pro_Name')->textInput(['maxlength' => true]) ?>
+    </div>
+    <div class="col-md-6">
+<?php
+$data1 = ArrayHelper::map($categories, 'cat_ID', 'cat_Name');
+echo $form->field($model, 'cats')->widget(Select2::classname(), [
+    'data' => $data1,
+    'options' => ['placeholder' => 'دسته را انتخاب کنید', 'multiple' => true],
+    'pluginOptions' => [
+        'tags' => true,
+        'tokenSeparators' => [',', ' '],
+        'maximumInputLength' => 10
+    ],
+])->label('انتخاب دسته');
+?>
+    </div>
+</div>
 
-    <?= $form->field($model, 'pro_ID')->textInput() ?>
-
-    <?= $form->field($model, 'pro_Name')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'pro_CatID')->dropDownList(
-            \yii\helpers\ArrayHelper::map(\app\models\Category::find()->all(),'cat_ID','cat_Name'),
-        ['prompt'=>'دسته مورد نظر را انتخاب کنید']
-    ) ?>
-
-    <?= $form->field($model, 'pro_ImID')->textInput() ?>
-
-    <?= $form->field($model, 'pro_BraID')->textInput() ?>
+<div class="row">
+    <div class="col-md-6">
+<?php
+$data2 = ArrayHelper::map($tags, 'tag_id', 'tag_name');
+echo $form->field($model, 'tags')->widget(Select2::classname(), [
+    'data' => $data2,
+    'options' => ['placeholder' => 'تگ را انتخاب کنید', 'multiple' => true],
+    'pluginOptions' => [
+        'tags' => true,
+        'tokenSeparators' => [',', ' '],
+        'maximumInputLength' => 10
+    ],
+])->label('انتخاب تگ');
+?>
+    </div>
+    <div class="col-md-6">
     <?= $form->field($model, 'pro_BraID')->dropDownList(
         \yii\helpers\ArrayHelper::map(\app\models\Brands::find()->all(),'bra_ID','bra_Name'),
         ['prompt'=>'برند مورد نظر را انتخاب کنید']
     ) ?>
+    </div>
+</div>
 
-    <?= $form->field($model, 'pro_LikeCount')->textInput() ?>
+<div class="row">
+    <div class="col-md-6">
+        <?= $form->field($model, 'pro_FirstPrice')->textInput() ?>        
+    </div>
+    <div class="col-md-6">
+        <?= $form->field($model, 'pro_LastPrice')->textInput() ?> 
+    </div>
+</div>
 
-    <?= $form->field($model, 'pro_DislikeCount')->textInput() ?>
+<div class="row">
+    <div class="col-md-6">
+        <?= $form->field($model, 'pro_OffPrice')->textInput() ?>
+    </div>
+    <div class="col-md-6">
+        <?= $form->field($model, 'pro_Code')->textInput() ?>
+    </div>
+</div>
 
-    <?= $form->field($model, 'pro_FirstPrice')->textInput() ?>
+<div class="row">
+    <div class="col-md-6">
+        <?= $form->field($model, 'pro_Description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'pro_LastPrice')->textInput() ?>
+    </div>
+    <div class="col-md-6">
+        <?= $form->field($model, 'image')->fileInput() ?>
+    </div>
+</div>
 
-    <?= $form->field($model, 'pro_OffPrice')->textInput() ?>
-
-    <?= $form->field($model, 'pro_BasketCount')->textInput() ?>
-
-    <?= $form->field($model, 'pro_CoID')->textInput() ?>
-
-    <?= $form->field($model, 'pro_TagID')->textInput() ?>
-
-    <?= $form->field($model, 'pro_Code')->textInput() ?>
-
-    <?= $form->field($model, 'pro_Description')->textarea(['rows' => 6]) ?>
+    <?php if ($model->isNewRecord == false): ?>
+        <?=$form->field($model, 'pro_thumb')->hiddenInput()->label(false); ?>
+    <?php endif ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

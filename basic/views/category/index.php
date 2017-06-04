@@ -23,12 +23,17 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'cat_ID',
+            [
+                'label' => 'تصویر',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    if ($model->cat_thumb != null) {
+                        return '<img src="../web/cat_image/small/'.$model->cat_thumb.'.jpg" width="70" />';
+                    }
+                },
+            ],
             'cat_Name',
-            'cat_parentID',
             'cat_Specification',
-            'cat_imageID',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

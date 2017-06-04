@@ -25,26 +25,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'pro_BraID') ?>
 
-    <?php // echo $form->field($model, 'pro_LikeCount') ?>
-
-    <?php // echo $form->field($model, 'pro_DislikeCount') ?>
-
-    <?php // echo $form->field($model, 'pro_FirstPrice') ?>
-
-    <?php // echo $form->field($model, 'pro_LastPrice') ?>
-
-    <?php // echo $form->field($model, 'pro_OffPrice') ?>
-
-    <?php // echo $form->field($model, 'pro_BasketCount') ?>
-
-    <?php // echo $form->field($model, 'pro_CoID') ?>
-
-    <?php // echo $form->field($model, 'pro_TagID') ?>
-
-    <?php // echo $form->field($model, 'pro_Code') ?>
-
-    <?php // echo $form->field($model, 'pro_Description') ?>
-
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Search'), ['class' => 'btn btn-primary']) ?>
         <?= Html::resetButton(Yii::t('app', 'Reset'), ['class' => 'btn btn-default']) ?>

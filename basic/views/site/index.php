@@ -2,12 +2,17 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'شاپکت';
+$this->title = 'تلگرام';
 ?>
+<style type="text/css">
+	.content-wrapper {
+		background: url(../web/theme_image/b.jpg) no-repeat !important;
+	}
+</style>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>به پنل شاپکت خوش آمدید!</h1>
+        <h1>به پنل تلگرام خوش آمدید!</h1>
 
         <p class="lead">برای دسترسی به امکانات پنل ابتدا واردشوید سپس از منوهای کناری استفاده کنید</p>
 

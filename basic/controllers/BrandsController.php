@@ -9,7 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-
+use yii\web\UploadedFile;
 
 /**
  * BrandsController implements the CRUD actions for Brands model.
@@ -77,8 +77,22 @@ class BrandsController extends Controller
     public function actionCreate()
     {
         $model = new Brands();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        $model->created_at= time();
+        $filename = uniqid();
+        if ($model->load(Yii::$app->request->post())) {
+            if ($_FILES['Brands']['name']['image'] != '') {
+                $model->image = UploadedFile::getInstance($model, 'image');
+                $model->bra_thumb=$filename;
+                if ($model->save()) {
+                    if ($model->upload($filename)) {
+                        return $this->redirect(['view', 'id' => $model->bra_ID]);
+                    }
+                }
+            } else {
+                if ($model->save()) {
+                    return $this->redirect(['view', 'id' => $model->bra_ID]);
+                }
+            }
             return $this->redirect(['view', 'id' => $model->bra_ID]);
         } else {
             return $this->render('create', [
@@ -97,7 +111,21 @@ class BrandsController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+           $thumb = $_POST['Brands']['bra_thumb'];
+            if ($_FILES['Brands']['name']['image'] != '') {
+                $filename = uniqid();
+                $model->deleteImg($thumb);
+                $model->image = UploadedFile::getInstance($model, 'image');
+                $model->bra_thumb=$filename;
+                if ($model->save()) {
+                    if ($model->upload($filename)) {
+                        return $this->redirect(['view', 'id' => $model->bra_ID]);
+                    }
+                }
+            } else {
+                $model->save();
+            }
             return $this->redirect(['view', 'id' => $model->bra_ID]);
         } else {
             return $this->render('update', [

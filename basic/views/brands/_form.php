@@ -10,15 +10,25 @@ use yii\widgets\ActiveForm;
 
 <div class="brands-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
-    <?= $form->field($model, 'bra_ID')->textInput() ?>
+    <div class="row">
+        <div class="col-md-6">
+            <?= $form->field($model, 'bra_Name')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-6">
+            <?= $form->field($model, 'image')->fileInput() ?>
+        </div>
+    </div>
 
-    <?= $form->field($model, 'bra_Name')->textInput(['maxlength' => true]) ?>
-
+    
     <?= $form->field($model, 'bra_Description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'bra_ImID')->textInput() ?>
+
+    <?php if ($model->isNewRecord == false): ?>
+        <?=$form->field($model, 'bra_thumb')->hiddenInput()->label(false); ?>
+    <?php endif ?>
+
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

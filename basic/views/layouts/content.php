@@ -5,22 +5,6 @@ use dmstr\widgets\Alert;
 ?>
 <div class="content-wrapper">
     <section class="content-header">
-        <?php if (isset($this->blocks['content-header'])) { ?>
-            <h1><?= $this->blocks['content-header'] ?></h1>
-        <?php } else { ?>
-            <h1>
-                <?php
-                if ($this->title !== null) {
-                    echo \yii\helpers\Html::encode($this->title);
-                } else {
-                    echo \yii\helpers\Inflector::camel2words(
-                        \yii\helpers\Inflector::id2camel($this->context->module->id)
-                    );
-                    echo ($this->context->module->id !== \Yii::$app->id) ? '<small>Module</small>' : '';
-                } ?>
-            </h1>
-        <?php } ?>
-
         <?=
         Breadcrumbs::widget(
             [
@@ -37,9 +21,12 @@ use dmstr\widgets\Alert;
 
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
-        <b>Version</b> 2.0
+        
     </div>
-    <strong>&copy; 2014-2015 <a href="http://shopket.ir">شاپکت</a>.</strong> تمامی حقوق محفوظ می باشد.
+    <div class="pull-left hidden-xs">
+        <b>Powered By Cotint Version</b> 3.2.1
+    </div>
+    <strong>تلگرام</strong> تمامی حقوق محفوظ می باشد.
 </footer>
 
 <!-- Control Sidebar -->

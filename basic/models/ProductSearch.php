@@ -18,7 +18,7 @@ class ProductSearch extends Product
     public function rules()
     {
         return [
-            [['pro_ID', 'pro_CatID', 'pro_ImID', 'pro_BraID', 'pro_LikeCount', 'pro_DislikeCount', 'pro_FirstPrice', 'pro_LastPrice', 'pro_OffPrice', 'pro_BasketCount', 'pro_CoID', 'pro_TagID', 'pro_Code'], 'integer'],
+            [['pro_ID', 'pro_ImID', 'pro_BraID', 'pro_LikeCount', 'pro_DislikeCount', 'pro_FirstPrice', 'pro_LastPrice', 'pro_OffPrice', 'pro_CoID', 'pro_TagID', 'pro_Code'], 'integer'],
             [['pro_Name', 'pro_Description'], 'safe'],
         ];
     }
@@ -60,7 +60,6 @@ class ProductSearch extends Product
         // grid filtering conditions
         $query->andFilterWhere([
             'pro_ID' => $this->pro_ID,
-            'pro_CatID' => $this->pro_CatID,
             'pro_ImID' => $this->pro_ImID,
             'pro_BraID' => $this->pro_BraID,
             'pro_LikeCount' => $this->pro_LikeCount,
@@ -68,7 +67,6 @@ class ProductSearch extends Product
             'pro_FirstPrice' => $this->pro_FirstPrice,
             'pro_LastPrice' => $this->pro_LastPrice,
             'pro_OffPrice' => $this->pro_OffPrice,
-            'pro_BasketCount' => $this->pro_BasketCount,
             'pro_CoID' => $this->pro_CoID,
             'pro_TagID' => $this->pro_TagID,
             'pro_Code' => $this->pro_Code,

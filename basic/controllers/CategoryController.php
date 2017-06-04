@@ -9,7 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-
+use yii\web\UploadedFile;
 
 /**
  * CategoryController implements the CRUD actions for Category model.
@@ -77,9 +77,26 @@ class CategoryController extends Controller
     public function actionCreate()
     {
         $model = new Category();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->cat_ID]);
+        $model->created_at= time();
+        $filename = uniqid();
+        if ($model->load(Yii::$app->request->post())) {
+            if (Yii::$app->request->post()['Category']['cat_parentID'] == '') {
+                $model->cat_parentID = 0;
+            }
+            if ($_FILES['Category']['name']['image'] != '') {
+                $model->image = UploadedFile::getInstance($model, 'image');
+                $model->cat_thumb=$filename;
+                if ($model->save()) {
+                    if ($model->upload($filename)) {
+                        return $this->redirect(['view', 'id' => $model->cat_ID]);
+                    }
+                }
+            } else {
+                if ($model->save()) {
+                    return $this->redirect(['view', 'id' => $model->cat_ID]);
+                }
+            }
+            return $this->redirect(['view', 'id' => $model->bra_ID]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -97,7 +114,21 @@ class CategoryController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $thumb = $_POST['Category']['cat_thumb'];
+            if ($_FILES['Category']['name']['image'] != '') {
+                $filename = uniqid();
+                $model->deleteImg($thumb);
+                $model->image = UploadedFile::getInstance($model, 'image');
+                $model->cat_thumb=$filename;
+                if ($model->save()) {
+                    if ($model->upload($filename)) {
+                        return $this->redirect(['view', 'id' => $model->cat_ID]);
+                    }
+                }
+            } else {
+                $model->save();
+            }
             return $this->redirect(['view', 'id' => $model->cat_ID]);
         } else {
             return $this->render('update', [

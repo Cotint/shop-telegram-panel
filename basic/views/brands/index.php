@@ -23,11 +23,18 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
+            [
+                'label' => 'تصویر',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    if ($model->bra_thumb != null) {                  
+                    return '<img src="../web/brand_image/small/'.$model->bra_thumb.'.jpg" width="70" />';
+                    }
 
-            'bra_ID',
+                },
+            ],
             'bra_Name',
             'bra_Description:ntext',
-            'bra_ImID',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

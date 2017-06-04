@@ -2,6 +2,9 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use app\models\Category;
+use app\models\Brands;
+use app\models\Product;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\ProductSearch */
@@ -23,22 +26,49 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'pro_ID',
+            [
+                'label' => 'تصویر',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    if ($model->pro_thumb != null) {
+                        return '<img src="../web/pro_image/small/'.$model->pro_thumb.'.jpg" width="70" />';
+                    }
+                },
+            ],
+            [
+                'label' => 'نام برند',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    return $model->proBra['bra_Name'];
+                },
+            ],
             'pro_Name',
-            'pro_CatID',
-            'pro_ImID',
-            'pro_BraID',
-            // 'pro_LikeCount',
-            // 'pro_DislikeCount',
-            // 'pro_FirstPrice',
-            // 'pro_LastPrice',
-            // 'pro_OffPrice',
-            // 'pro_BasketCount',
-            // 'pro_CoID',
-            // 'pro_TagID',
-            // 'pro_Code',
-            // 'pro_Description:ntext',
+            'pro_FirstPrice',
+            'pro_LastPrice',
+            [
+                'label' => 'دسته',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    $query = Product::find()->with('cats')->where(['pro_ID' => $model->pro_ID])->one();
+                    $text = '';
+                    foreach ($query->cats as $key => $value) {
+                        $text .= $value['cat_Name'].'<br>';
+                    }
+                    return $text;
+                },
+            ],
+            [
+                'label' => 'تگ',
+                'format' => 'html',
+                'value' => function($model, $index, $dataColumn) {
+                    $query = Product::find()->with('tags')->where(['pro_ID' => $model->pro_ID])->one();
+                    $text = '';
+                    foreach ($query->tags as $key => $value) {
+                        $text .= '#'.$value['tag_name'].'<br>';
+                    }
+                    return $text;
+                },
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

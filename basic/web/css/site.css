@@ -1,6 +1,18 @@
+@font-face {
+    font-family: 'iransans';
+    src: url("http://telegram.shopket.ir/wordpress-panel-1/basic/web/fonts/iransans/eot/IRANSansWeb.eot");
+    src: url("http://telegram.shopket.ir/wordpress-panel-1/basic/web/fonts/iransans/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("http://telegram.shopket.ir/wordpress-panel-1/basic/web/fonts/iransans/woff/IRANSansWeb.woff") format("woff"), url("http://telegram.shopket.ir/wordpress-panel-1/basic/web/fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility
+}
+*:not(i):not(span):not(#list):not(#grid):not(.star-rating):not(.sidebar-toggle) {
+    font-family: 'iransans' !important;
+}
 html,
 body {
     height: 100%;
+    font-family: 'iransans' !important;
 }
 
 .wrap {
@@ -112,4 +124,11 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+section.content-header h1 {
+    direction: ltr;
+}
+
+.content-header {
+    margin-bottom: 4%;
 }

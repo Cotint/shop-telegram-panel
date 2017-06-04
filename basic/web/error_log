@@ -1,0 +1,670 @@
+[16-May-2017 08:27:25 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'use' (T_USE), expecting ';' or '{' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/CategoryController.php on line 22
+[17-May-2017 21:54:26 Asia/Tehran] PHP Fatal error:  Class 'ArrayHelper' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news-category/_form.php on line 17
+[17-May-2017 22:04:37 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/NewsCategoryController.php on line 92
+[21-May-2017 11:36:55 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 113
+[21-May-2017 11:37:04 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 113
+[21-May-2017 11:39:09 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 113
+[22-May-2017 17:28:18 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Brands.php on line 85
+[22-May-2017 17:29:56 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 123
+[22-May-2017 17:34:32 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 123
+[22-May-2017 17:41:22 Asia/Tehran] PHP Fatal error:  Call to a member function saveAs() on null in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/models/Product.php on line 123
+[26-May-2017 18:06:04 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\NewsCategory' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/NewsController.php on line 88
+[26-May-2017 18:07:24 Asia/Tehran] PHP Fatal error:  Class 'ArrayHelper' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/_form.php on line 18
+[26-May-2017 18:09:44 Asia/Tehran] PHP Fatal error:  Class 'NewsCategory' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/create.php on line 19
+[26-May-2017 19:37:19 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\Category' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php on line 82
+[28-May-2017 08:23:01 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\Tag' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/NewsController.php on line 72
+[28-May-2017 08:23:20 Asia/Tehran] PHP Parse error:  syntax error, unexpected ''tags'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/create.php on line 20
+[28-May-2017 23:21:13 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\Tag' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php on line 84
+[29-May-2017 07:54:27 Asia/Tehran] PHP Fatal error:  Class 'kartik\widgets\Select2' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/_form.php on line 28
+[29-May-2017 07:55:10 Asia/Tehran] PHP Fatal error:  Call to a member function isAttributeRequired() on array in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/ActiveField.php on line 859
+[29-May-2017 08:09:29 Asia/Tehran] PHP Fatal error:  Call to a member function isAttributeRequired() on array in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/ActiveField.php on line 859
+[29-May-2017 08:14:18 Asia/Tehran] PHP Fatal error:  Call to a member function isAttributeRequired() on array in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/ActiveField.php on line 859
+[30-May-2017 08:03:10 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'news_description' (T_STRING) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/_form.php on line 48
+[30-May-2017 08:17:58 Asia/Tehran] PHP Fatal error:  Class 'Select2' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/_form.php on line 24
+[01-Jun-2017 12:38:23 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\ProCat' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php on line 142
+[01-Jun-2017 13:29:10 Asia/Tehran] PHP Fatal error:  Class 'app\controllers\NewsCat' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/NewsController.php on line 130
+[01-Jun-2017 15:55:35 Asia/Tehran] PHP Fatal error:  Class '‌Brands' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 34
+[01-Jun-2017 15:56:02 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'contentOptions' (T_STRING) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 37
+[01-Jun-2017 15:56:43 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'contentOptions' (T_STRING) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 37
+[01-Jun-2017 15:56:53 Asia/Tehran] PHP Fatal error:  Class '‌Brands' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 34
+[01-Jun-2017 15:57:21 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$model' (T_VARIABLE) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 34
+[01-Jun-2017 15:59:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 33
+[01-Jun-2017 16:12:00 Asia/Tehran] PHP Fatal error:  Class 'Product' not found in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 43
+[01-Jun-2017 16:12:15 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 3)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#8 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#9 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Undefined variable: id' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php:44
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(44): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/telegram/...', 44, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(51): yii\base\Widget::widget(Array)
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\ProductController->actionIndex()
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '17893',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317335.291429,
+    'REQUEST_TIME' => 1496317335,
+]
+[01-Jun-2017 16:12:34 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 4)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Product::id' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('id')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(44): yii\db\BaseActiveRecord->__get('id')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(51): yii\base\Widget::widget(Array)
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#21 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\ProductController->actionIndex()
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#29 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '11379',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317354.317368,
+    'REQUEST_TIME' => 1496317354,
+]
+[01-Jun-2017 16:12:50 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\widgets\BaseListView::yii\widgets\{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\widgets\\Bas...', 'yii\\widgets\\{cl...')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\widgets\\Bas...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\widgets\\Bas...', 'yii\\widgets\\{cl...', Array, 18)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#8 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#9 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Object of class app\models\Product could not be converted to string' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php:298
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/home/telegram/...', 298, Array)
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php(298): str_replace('\r\n', '\n', 'Object')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DOMLex.php(50): HTMLPurifier_Lexer->normalize(Object(app\models\Product), Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php(216): HTMLPurifier_Lexer_DOMLex->tokenizeHTML(Object(app\models\Product), Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/helpers/BaseHtmlPurifier.php(58): HTMLPurifier->purify(Object(app\models\Product))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/i18n/Formatter.php(395): yii\helpers\BaseHtmlPurifier::process(Object(app\models\Product), NULL)
+#6 [internal function]: yii\i18n\Formatter->asHtml(Object(app\models\Product))
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/i18n/Formatter.php(316): call_user_func_array(Array, Array)
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\i18n\Formatter->format(Object(app\models\Product), 'html')
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(51): yii\base\Widget::widget(Array)
+#21 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#26 [internal function]: app\controllers\ProductController->actionIndex()
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#28 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#29 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#30 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#31 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#33 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '14252',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317369.8739309,
+    'REQUEST_TIME' => 1496317369,
+]
+[01-Jun-2017 16:14:03 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 3)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#8 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#9 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Undefined variable: productTags' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php:45
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(45): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/telegram/...', 45, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(55): yii\base\Widget::widget(Array)
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\ProductController->actionIndex()
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '6447',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317442.5580621,
+    'REQUEST_TIME' => 1496317442,
+]
+[01-Jun-2017 16:14:13 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 3)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(249): require('/home/telegram/...')
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#8 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#9 {main}
+Previous exception:
+exception 'yii\base\ErrorException' with message 'Undefined variable: text' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php:46
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(46): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/telegram/...', 46, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(55): yii\base\Widget::widget(Array)
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\ProductController->actionIndex()
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#28 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '6007',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317453.2989211,
+    'REQUEST_TIME' => 1496317453,
+]
+[01-Jun-2017 16:22:21 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 5)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Tag::cat_Name' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('cat_Name')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Model.php(983): yii\db\BaseActiveRecord->__get('cat_Name')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(47): yii\base\Model->offsetGet('cat_Name')
+#3 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(67): yii\base\Widget::widget(Array)
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#21 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\ProductController->actionIndex()
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#28 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#30 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '19074',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317941.1116359,
+    'REQUEST_TIME' => 1496317941,
+]
+[01-Jun-2017 16:22:42 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 5)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Tag::cat_Name' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('cat_Name')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Model.php(983): yii\db\BaseActiveRecord->__get('cat_Name')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(47): yii\base\Model->offsetGet('cat_Name')
+#3 [internal function]: yii\base\View->{closure}(Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\Product), 4, 0, Object(yii\grid\DataColumn))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\Product), 4, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Product), 4, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\Product), 4, 0)
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\Product), 4, 0)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#12 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php(67): yii\base\Widget::widget(Array)
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\ProductController))
+#21 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\ProductController))
+#22 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/ProductController.php(61): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\ProductController->actionIndex()
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('product', Array)
+#28 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#30 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=product',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '5473',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=product',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=product',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496317961.4844811,
+    'REQUEST_TIME' => 1496317961,
+]
+[01-Jun-2017 16:23:29 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 47
+[01-Jun-2017 16:29:48 Asia/Tehran] An Error occurred while handling another error:
+exception 'ReflectionException' with message 'Method yii\base\View::{closure}() does not exist' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php:199
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(199): ReflectionMethod->__construct('yii\\base\\View', '{closure}')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->addTypeLinks('yii\\base\\View::...')
+#2 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(308): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/views/errorHandler/exception.php(385): yii\web\ErrorHandler->renderCallStackItem(NULL, NULL, 'yii\\base\\View', '{closure}', Array, 4)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(253): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/ErrorHandler.php(114): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#13 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\News::pro_ID' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('pro_ID')
+#1 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/index.php(35): yii\db\BaseActiveRecord->__get('pro_ID')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\News), 2, 0, Object(yii\grid\DataColumn))
+#3 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(213): call_user_func(Object(Closure), Object(app\models\News), 2, 0, Object(yii\grid\DataColumn))
+#4 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/DataColumn.php(227): yii\grid\DataColumn->getDataCellValue(Object(app\models\News), 2, 0)
+#5 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderDataCellContent(Object(app\models\News), 2, 0)
+#6 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(507): yii\grid\Column->renderDataCell(Object(app\models\News), 2, 0)
+#7 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(476): yii\grid\GridView->renderTableRow(Object(app\models\News), 2, 0)
+#8 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(347): yii\grid\GridView->renderTableBody()
+#9 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(155): yii\grid\GridView->renderItems()
+#10 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(316): yii\widgets\BaseListView->renderSection('{items}')
+#11 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(130): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/grid/GridView.php(291): yii\widgets\BaseListView->run()
+#15 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Widget.php(139): yii\grid\GridView->run()
+#16 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news/index.php(46): yii\base\Widget::widget(Array)
+#17 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(328): require('/home/telegram/...')
+#18 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/telegram/...', Array)
+#19 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/telegram/...', Array, Object(app\controllers\NewsController))
+#20 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\NewsController))
+#21 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/controllers/NewsController.php(49): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\NewsController->actionIndex()
+#23 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#25 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#26 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news', Array)
+#27 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php(12): yii\base\Application->run()
+#29 {main}
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1386390332.1489818516; _identity=a1cd65b2619189c971968d7babdfe47bcb5c78bcc4dd269aa92b38b3a19f6617a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=vk5gfke2o6ojnvr2n3t22khpo3; _csrf=52fe6b8cab0b8a9a2c767d6a5e14838d634c3248a7e546bcd3e533f8385fde0ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22o2-fos4aHDi36g4nuiFIqPwlS-K6Ig2L%22%3B%7D',
+    'HTTP_HOST' => 'telegram.shopket.ir',
+    'HTTP_REFERER' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php?r=news-category',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/telegram/domains/telegram.shopket.ir/public_html',
+    'REMOTE_ADDR' => '151.240.22.240',
+    'REMOTE_PORT' => '24433',
+    'SERVER_ADDR' => '185.94.99.147',
+    'SERVER_NAME' => 'telegram.shopket.ir',
+    'SERVER_ADMIN' => 'webmaster@telegram.shopket.ir',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/wordpress-panel-1/basic/web/index.php?r=news',
+    'SCRIPT_FILENAME' => '/home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/web/index.php',
+    'QUERY_STRING' => 'r=news',
+    'SCRIPT_URI' => 'http://telegram.shopket.ir/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_URL' => '/wordpress-panel-1/basic/web/index.php',
+    'SCRIPT_NAME' => '/wordpress-panel-1/basic/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/wordpress-panel-1/basic/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1496318387.9476891,
+    'REQUEST_TIME' => 1496318387,
+]
+[01-Jun-2017 17:37:03 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}', expecting ']' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/product/index.php on line 45
+[02-Jun-2017 11:57:34 Asia/Tehran] PHP Parse error:  syntax error, unexpected '{' in /home/telegram/domains/telegram.shopket.ir/public_html/wordpress-panel-1/basic/views/news-category/index.php on line 30

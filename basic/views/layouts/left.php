@@ -8,7 +8,7 @@
                 <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>مجتبی جعفری</p>
+                <p>ADMIN</p>
 
                 <a href="#"><i class="fa fa-circle text-success"></i> آنلاین</a>
             </div>
@@ -30,39 +30,42 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'پنل شاپکت', 'options' => ['class' => 'header']],
+                    ['label' => 'پنل تلگرام', 'options' => ['class' => 'header']],
                     // ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
                     // ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
                     ['label' => 'محصولات', 'icon' => 'fa fa-shopping-cart', 'url' => ['/product']],
                     ['label' => 'برندها', 'icon' => 'fa fa-tags', 'url' => ['/brands']],
                     ['label' => 'دسته بندی', 'icon' => 'fa fa-file-text-o', 'url' => ['/category']],
+                    ['label' => 'اخبار', 'icon' => 'fa fa-newspaper-o', 'url' => ['/news']],
+                    ['label' => 'دسته اخبار', 'icon' => 'fa fa-file-text-o', 'url' => ['/news-category']],
+                    ['label' => 'تگ', 'icon' => 'fa fa-hashtag', 'url' => ['/tag']],
                     ['label' => 'ورود', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
-                    [
-                        'label' => 'Same tools',
-                        'icon' => 'fa fa-share',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
-                            ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
-                            [
-                                'label' => 'Level One',
-                                'icon' => 'fa fa-circle-o',
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'fa fa-circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
-                        ],
-                    ],
+                    // [
+                    //     'label' => 'Same tools',
+                    //     'icon' => 'fa fa-share',
+                    //     'url' => '#',
+                    //     'items' => [
+                    //         ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
+                    //         ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
+                    //         [
+                    //             'label' => 'Level One',
+                    //             'icon' => 'fa fa-circle-o',
+                    //             'url' => '#',
+                    //             'items' => [
+                    //                 ['label' => 'Level Two', 'icon' => 'fa fa-circle-o', 'url' => '#',],
+                    //                 [
+                    //                     'label' => 'Level Two',
+                    //                     'icon' => 'fa fa-circle-o',
+                    //                     'url' => '#',
+                    //                     'items' => [
+                    //                         ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
+                    //                         ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
+                    //                     ],
+                    //                 ],
+                    //             ],
+                    //         ],
+                    //     ],
+                    // ],
                 ],
             ]
         ) ?>

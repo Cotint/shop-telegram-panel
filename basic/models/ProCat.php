@@ -20,7 +20,7 @@ class ProCat extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'pro_cat';
+        return 'proCat';
     }
 
     /**
