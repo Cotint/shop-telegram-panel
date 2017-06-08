@@ -195,6 +195,8 @@ class ProductController extends Controller
      */
     public function actionDelete($id)
     {
+        ProductTag::deleteAll(['pro_ID' => $id]);
+        ProCat::deleteAll(['pro_ID' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);

@@ -8,6 +8,8 @@ use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\NewsTag;
+use app\models\ProductTag;
 
 /**
  * TagController implements the CRUD actions for Tag model.
@@ -101,6 +103,8 @@ class TagController extends Controller
      */
     public function actionDelete($id)
     {
+        NewsTag::deleteAll(['tag_id' => $id]);
+        ProductTag::deleteAll(['tag_id' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);

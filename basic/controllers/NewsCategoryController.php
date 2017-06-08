@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
+use app\models\NewsCat;
 
 /**
  * NewsCategoryController implements the CRUD actions for NewsCategory model.
@@ -133,6 +134,7 @@ class NewsCategoryController extends Controller
      */
     public function actionDelete($id)
     {
+        NewsCat::deleteAll(['cat_id' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);

@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\UploadedFile;
+use app\models\Product;
 
 /**
  * BrandsController implements the CRUD actions for Brands model.
@@ -142,6 +143,7 @@ class BrandsController extends Controller
      */
     public function actionDelete($id)
     {
+        Product::updateAll(['pro_BraID' => Null], ['pro_BraID' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);

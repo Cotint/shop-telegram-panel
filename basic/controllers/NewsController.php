@@ -183,6 +183,8 @@ class NewsController extends Controller
      */
     public function actionDelete($id)
     {
+        NewsTag::deleteAll(['news_id' => $id]);
+        NewsCat::deleteAll(['news_id' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);

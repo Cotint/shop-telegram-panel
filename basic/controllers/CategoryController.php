@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\UploadedFile;
+use app\models\ProCat;
 
 /**
  * CategoryController implements the CRUD actions for Category model.
@@ -145,6 +146,7 @@ class CategoryController extends Controller
      */
     public function actionDelete($id)
     {
+        ProCat::deleteAll(['cat_ID' => $id]);
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
