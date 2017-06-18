@@ -92,14 +92,18 @@ class ProductController extends Controller
                 if ($model->save()) {
                     if ($model->upload($filename)) {
                         $cats = Yii::$app->request->post()['Product']['cats'];
-                        foreach ($cats as $key => $value) {
-                            $Category = Category::findOne($value);
-                            $model->link('cats', $Category);
+                        if ($cats != '') {
+                           foreach ($cats as $key => $value) {
+                                $Category = Category::findOne($value);
+                                $model->link('cats', $Category);
+                            }
                         }
                         $tags = Yii::$app->request->post()['Product']['tags'];
-                        foreach ($tags as $key => $value) {
-                            $tag = Tag::findOne($value);
-                            $model->link('tags', $tag);
+                        if ($tags != '') {
+                            foreach ($tags as $key => $value) {
+                                $tag = Tag::findOne($value);
+                                $model->link('tags', $tag);
+                            }
                         }
                         return $this->redirect(['view', 'id' => $model->pro_ID]);
                     }
@@ -107,14 +111,18 @@ class ProductController extends Controller
             } else {
                 if ($model->save()) {
                     $cats = Yii::$app->request->post()['Product']['cats'];
-                    foreach ($cats as $key => $value) {
-                        $Category = Category::findOne($value);
-                        $model->link('cats', $Category);
+                    if ($cats != '') {
+                        foreach ($cats as $key => $value) {
+                            $Category = Category::findOne($value);
+                            $model->link('cats', $Category);
+                        }
                     }
                     $tags = Yii::$app->request->post()['Product']['tags'];
-                    foreach ($tags as $key => $value) {
+                    if ($tags != '') {
+                        foreach ($tags as $key => $value) {
                         $tag = Tag::findOne($value);
                         $model->link('tags', $tag);
+                        }
                     }
                     return $this->redirect(['view', 'id' => $model->pro_ID]);
                 }
@@ -152,29 +160,39 @@ class ProductController extends Controller
                 if ($model->save()) {
                     if ($model->upload($filename)) {
                         $cats = Yii::$app->request->post()['Product']['cats'];
-                        foreach ($cats as $key => $value) {
-                            $Category = Category::findOne($value);
-                            $model->link('cats', $Category);
+                        if ($cats != '') {
+                            foreach ($cats as $key => $value) {
+                                $Category = Category::findOne($value);
+                                $model->link('cats', $Category);
+                            }
                         }
+
                         $tags = Yii::$app->request->post()['Product']['tags'];
-                        foreach ($tags as $key => $value) {
-                            $tag = Tag::findOne($value);
-                            $model->link('tags', $tag);
+                        if ($tags != '') {
+                            foreach ($tags as $key => $value) {
+                                $tag = Tag::findOne($value);
+                                $model->link('tags', $tag);
+                            }
                         }
+
                         return $this->redirect(['view', 'id' => $model->pro_ID]);
                     }
                 }
             } else {
                 $model->save();
                 $cats = Yii::$app->request->post()['Product']['cats'];
-                foreach ($cats as $key => $value) {
-                    $Category = Category::findOne($value);
-                    $model->link('cats', $Category);
+                if ($cats != '') {
+                    foreach ($cats as $key => $value) {
+                        $Category = Category::findOne($value);
+                        $model->link('cats', $Category);
+                    }
                 }
                 $tags = Yii::$app->request->post()['Product']['tags'];
-                foreach ($tags as $key => $value) {
-                    $tag = Tag::findOne($value);
-                    $model->link('tags', $tag);
+                if ($tags != '') {
+                    foreach ($tags as $key => $value) {
+                        $tag = Tag::findOne($value);
+                        $model->link('tags', $tag);
+                    }
                 }
             }
             return $this->redirect(['view', 'id' => $model->pro_ID]);

@@ -79,14 +79,18 @@ class NewsController extends Controller
                 $model->news_thumb=$filename;
                 if ($model->save()) {
                     $cats = Yii::$app->request->post()['News']['cats'];
-                    foreach ($cats as $key => $value) {
-                        $newsCategory = NewsCategory::findOne($value);
-                        $model->link('cats', $newsCategory);
+                    if ($cats != '') {
+                        foreach ($cats as $key => $value) {
+                            $newsCategory = NewsCategory::findOne($value);
+                            $model->link('cats', $newsCategory);
+                        }
                     }
                     $tags = Yii::$app->request->post()['News']['tags'];
-                    foreach ($tags as $key => $value) {
-                        $tag = Tag::findOne($value);
-                        $model->link('tags', $tag);
+                    if ($tags != '') {
+                        foreach ($tags as $key => $value) {
+                            $tag = Tag::findOne($value);
+                            $model->link('tags', $tag);
+                        }
                     }
                     if ($model->upload($filename)) {
                         return $this->redirect(['view', 'id' => $model->news_id]);
@@ -96,14 +100,18 @@ class NewsController extends Controller
             } else {
                 if ($model->save()) {
                     $cats = Yii::$app->request->post()['News']['cats'];
-                    foreach ($cats as $key => $value) {
-                        $newsCategory = NewsCategory::findOne($value);
-                        $model->link('cats', $newsCategory);
+                    if ($cats != '') {
+                        foreach ($cats as $key => $value) {
+                            $newsCategory = NewsCategory::findOne($value);
+                            $model->link('cats', $newsCategory);
+                        }
                     }
                     $tags = Yii::$app->request->post()['News']['tags'];
-                    foreach ($tags as $key => $value) {
-                        $tag = Tag::findOne($value);
-                        $model->link('tags', $tag);
+                    if ($tags != '') {
+                        foreach ($tags as $key => $value) {
+                            $tag = Tag::findOne($value);
+                            $model->link('tags', $tag);
+                        }
                     }
                     return $this->redirect(['view', 'id' => $model->news_id]);
                 }
@@ -139,14 +147,18 @@ class NewsController extends Controller
                 $model->news_thumb=$filename;
                 if ($model->save()) {
                     $cats = Yii::$app->request->post()['News']['cats'];
-                    foreach ($cats as $key => $value) {
-                        $newsCategory = NewsCategory::findOne($value);
-                        $model->link('cats', $newsCategory);
+                    if ($cats != '') {
+                        foreach ($cats as $key => $value) {
+                            $newsCategory = NewsCategory::findOne($value);
+                            $model->link('cats', $newsCategory);
+                        }
                     }
                     $tags = Yii::$app->request->post()['News']['tags'];
-                    foreach ($tags as $key => $value) {
-                        $tag = Tag::findOne($value);
-                        $model->link('tags', $tag);
+                    if ($tags != '') {
+                        foreach ($tags as $key => $value) {
+                            $tag = Tag::findOne($value);
+                            $model->link('tags', $tag);
+                        }
                     }
                     if ($model->upload($filename)) {
                         return $this->redirect(['view', 'id' => $model->news_id]);
@@ -155,14 +167,18 @@ class NewsController extends Controller
             } else {
                 $model->save();
                 $cats = Yii::$app->request->post()['News']['cats'];
-                foreach ($cats as $key => $value) {
-                    $newsCategory = NewsCategory::findOne($value);
-                    $model->link('cats', $newsCategory);
+                if ($cats != '') {
+                    foreach ($cats as $key => $value) {
+                        $newsCategory = NewsCategory::findOne($value);
+                        $model->link('cats', $newsCategory);
+                    }
                 }
                 $tags = Yii::$app->request->post()['News']['tags'];
-                foreach ($tags as $key => $value) {
-                    $tag = Tag::findOne($value);
-                    $model->link('tags', $tag);
+                if ($tags != '') {
+                    foreach ($tags as $key => $value) {
+                        $tag = Tag::findOne($value);
+                        $model->link('tags', $tag);
+                    }
                 }
             }
             return $this->redirect(['view', 'id' => $model->news_id]);

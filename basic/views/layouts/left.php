@@ -35,9 +35,9 @@
                     // ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
                     ['label' => 'محصولات', 'icon' => 'fa fa-shopping-cart', 'url' => ['/product']],
                     ['label' => 'برندها', 'icon' => 'fa fa-tags', 'url' => ['/brands']],
-                    ['label' => 'دسته بندی', 'icon' => 'fa fa-file-text-o', 'url' => ['/category']],
+                    ['label' => 'دسته بندی محصولات', 'icon' => 'fa fa-file-text-o', 'url' => ['/category']],
                     ['label' => 'اخبار', 'icon' => 'fa fa-newspaper-o', 'url' => ['/news']],
-                    ['label' => 'دسته اخبار', 'icon' => 'fa fa-file-text-o', 'url' => ['/news-category']],
+                    ['label' => 'دسته بندی اخبار', 'icon' => 'fa fa-file-text-o', 'url' => ['/news-category']],
                     ['label' => 'تگ', 'icon' => 'fa fa-hashtag', 'url' => ['/tag']],
                     ['label' => 'ورود', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     // [
